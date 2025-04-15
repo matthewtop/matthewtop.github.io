@@ -24,7 +24,7 @@ Actively engaged on the TryHackMe platform, achieving **Top 1%** ranking. Comple
 
 ### Virtual Cybersecurity Home Lab 
 
-*(Ongoing Project)* To gain practical, hands-on experience beyond theoretical knowledge, I designed and built a virtualized cybersecurity home lab. This environment utilizes virtual machines running **Windows 11** and **BlackArch Linux** (managed via `VMware`/`VirtualBox`), creating a sandboxed space to safely simulate and analyze real-world cybersecurity scenarios. BlackArch also serves as my personal machine to complete tryhackme's challenges (instead of built-in VM's) and whole home lab serves as training ground for practicing network reconnaissance and executing various attack techniques.
+*(Ongoing Project)* To gain practical, hands-on experience beyond theoretical knowledge, I designed and built a virtualized cybersecurity home lab. This environment utilizes virtual machines running **Windows 11** and **BlackArch Linux**, creating a sandboxed space to safely simulate and analyze real-world cybersecurity scenarios. BlackArch also serves as my personal machine to complete tryhackme's challenges (instead of built-in VM's) and whole home lab serves as training ground for practicing network reconnaissance and executing various attack techniques.
 
 
 ## Contact Me
