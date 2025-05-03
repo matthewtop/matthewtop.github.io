@@ -22,6 +22,18 @@ Actively engaged on the TryHackMe platform, achieving **Top 1%** ranking. Comple
 
 ***
 
+### Personal Log Monitoring System in Real-Time
+
+I developed a **personal log monitoring system** based on a SIEM architecture. The system is designed to analyze logs in real-time, send alerts via Telegram and detect security incidents, such as:
+
+- Failed SSH login attempts,
+- Login to the root account,
+- Suspicious system service restarts,
+- Changes to critical system files,
+- Multiple failed login attempts
+- and many more
+
+
 ### Virtual Cybersecurity Home Lab 
 
 *(Ongoing Project)* To gain practical, hands-on experience beyond theoretical knowledge, I designed and built a virtualized cybersecurity home lab. This environment utilizes virtual machines running **Windows 11** and **BlackArch Linux**/**ParrotOs** VMware, creating a sandboxed space to safely simulate and analyze real-world cybersecurity scenarios. BlackArch also serves as my personal machine to complete tryhackme's challenges (instead of built-in VM's) and whole home lab serves as training ground for practicing network reconnaissance and executing various attack techniques.
