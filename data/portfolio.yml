@@ -24,8 +24,5 @@ portfolioitems:
         status: 'Finished'
 
       - name: Encrypted Java Chat
-        image: '/images/portfolio/code.jpg'
-        link: 'https://github.com/'
-        linktext: 'View Repository'
         description: 'A secure peer-to-peer client-server chat application implemented in Java, featuring end-to-end message encryption and secure key exchange.'
         status: 'Finished'
