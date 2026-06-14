@@ -1,0 +1,31 @@
+portfolioitems:
+  - title: Projects
+    portfolioitem:
+
+      - name: GitOps Infrastructure
+        image: '/images/architecture.png'
+        description: 'A local DevSecOps platform and GitOps pipeline designed to simulate an enterprise-grade cloud-native deployment lifecycle on a local workstation. The project utilizes IaC principles with Terraform to dynamically provision and configure a local Minikube cluster using the Docker driver, automating the setup of Kubernetes and managing cluster connections via kubeconfig. The CI/CD pipeline is driven by GitHub Actions,which automatically triggers on code pushes to checkout source code, compile and build containerized application images, push them to Docker Hub with short-SHA tags, and update target Helm chart values via automated Git commits. Continuous Delivery is orchestrated by Argo CD deployed via Helm, implementing a GitOps reconciliation loop that watches the repository, detects manifest drift, and synchronizes the desired state into dedicated Kubernetes namespaces. To facilitate offline integration testing without incurring cloud costs, LocalStack is integrated via Docker Compose to emulate core AWS services including S3, DynamoDB, EC2, IAM, and STS on port 4566 with persistent host volume storage. Finally, the architecture implements full cloud-native observability by deploying a dedicated PLG monitoring stack, utilizing Prometheus for HTTP metrics scraping, Grafana Loki for container log aggregation, and Grafana for real-time data visualization on centralized engineering dashboards.'
+        status: 'Finished'
+
+      - name: ESP32 Honeypot
+        image: '/images/esp32.jpg'
+        description: 'A hardware-based cybersecurity project that turns an ESP32 into a Wi-Fi Access Point acting as a honeypot. The custom C++ firmware generates an open network and runs an internal HTTP web server to serve a fake Google Sign-In portal. When an untrusted client connects, the system logs their MAC address via Wi-Fi stack event handlers and intercepts any submitted login credentials from the POST request. The captured data is safely stored in local memory and can be reviewed directly in the field on a physical 128x64 SSD1306 OLED display by toggling an on-board hardware button equipped with software debouncing.'
+        status: 'Finished'
+
+      - name: Simple SIEM
+        image: '/images/siem.png'
+        link: 'https://github.com/matthewtop/simpleSIEM'
+        linktext: 'View Repository'
+        description: 'A lightweight Security Information and Event Management system designed for log aggregation, parsing, and real-time security alerting.'
+        status: 'Finished'
+
+      - name: Husar Security Auditor
+        description: 'A Linux host security auditing tool engineered as my own inspiration of auditd. The script automates local system hardening assessments by inspecting critical vectors, including broad file permissions in /etc, risky SSH configurations (like root login or empty passwords), non-secure sysctl parameters, exposed network ports, and unauthorized interactive users or shadow file vulnerabilities. It features a privilege detection system that adapts execution based on root access, dynamically scores the system security posture on a 0-100 scale based on severity penalties, and generates a structured, human-readable terminal report with prioritized remediation findings.'
+        status: 'Finished'
+
+      - name: Encrypted Java Chat
+        image: '/images/portfolio/code.jpg'
+        link: 'https://github.com/'
+        linktext: 'View Repository'
+        description: 'A secure peer-to-peer client-server chat application implemented in Java, featuring end-to-end message encryption and secure key exchange.'
+        status: 'Finished'

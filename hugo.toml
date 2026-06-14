@@ -1,0 +1,48 @@
+baseURL = "https://matthewtop.github.io/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Mateusz Tołpa"
+theme = "anatole"
+summarylength = 20
+enableEmoji = true
+
+mainSections = []
+
+[params]
+title = "Mateusz Tołpa"
+author = "Mateusz Tołpa"
+description = "Cybersecurity | Linux | Portfolio | Writeups"
+customCss = ["css/custom.css"]
+displayMode = "light"
+disableThemeSwitcher = false
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/matthewtop"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "LinkedIn"
+url = "https://linkedin.com"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 100
+
+[[menu.main]]
+name = "HTB Writeups"
+url = "/writeups/"
+weight = 200
+
+[[menu.main]]
+name = "Projects"
+url = "/portfolio/"
+weight = 300
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
