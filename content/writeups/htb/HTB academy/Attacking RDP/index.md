@@ -23,12 +23,11 @@ we can find answer to this question directly in the notes.
 After reading contents of `.txt` file from 1st question we obtained `Administrator's` account hash.
 
 Our next move will be adding registry key to allow `Pass-the-Hash`:
-![[registry-key-disable-restricted-admin.png]]
-
+![Registry Key](images/registry-key-disable-restricted-admin.png)
 after that we can try to connect to `Administrator's` account:
 ```
 xfreerdp /v:$ipAddress$ /u:Administrator /pth:$AdminHash$
 ```
 
 Last thing that was left to do is opening `flag.txt` file:
-![[admin-flag-rdp.png]]
+![Admin Flag](images/admin-flag-rdp.png)
