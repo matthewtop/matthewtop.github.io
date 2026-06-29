@@ -24,7 +24,17 @@ url = "https://github.com/matthewtop"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "LinkedIn"
-url = "https://linkedin.com"
+url = "https://www.linkedin.com/in/mateusztolpa/"
+
+[[params.socialIcons]]
+icon = "fas fa-cube"
+title = "Hack The Box"
+url = "https://profile.hackthebox.com/profile/019dac99-c5d7-732b-b858-3d328e6e2c70"
+
+[[params.socialIcons]]
+icon = "fas fa-terminal"
+title = "TryHackMe"
+url = "https://tryhackme.com/p/matthewtop"
 
 [[menu.main]]
 name = "Home"
