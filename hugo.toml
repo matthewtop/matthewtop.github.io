@@ -27,12 +27,12 @@ title = "LinkedIn"
 url = "https://www.linkedin.com/in/mateusztolpa/"
 
 [[params.socialIcons]]
-icon = "fas fa-cube"
+icon = "fab fa-codepen"
 title = "Hack The Box"
 url = "https://profile.hackthebox.com/profile/019dac99-c5d7-732b-b858-3d328e6e2c70"
 
 [[params.socialIcons]]
-icon = "fas fa-terminal"
+icon = "fab fa-linux"
 title = "TryHackMe"
 url = "https://tryhackme.com/p/matthewtop"
 
