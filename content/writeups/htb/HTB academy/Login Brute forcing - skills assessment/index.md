@@ -26,7 +26,7 @@ Running this command reveals the administrator password, allowing us to answer t
 ### Q2: After successfully brute forcing the login, what is the username you have been given for the next part of the skills assessment?
 
 After successfully authenticating, the prompt displays the username required for Part 2:
-![[images/q2_answer.png]]
+![Q2 Answer](images/q2_answer.png)
 
 ---
 `part2:`
@@ -52,7 +52,7 @@ After obtaining the valid credentials, we log in via SSH:
 ssh $foundUsername$@$IPaddress$ -p $PORT$
 ```
 We can find some interesting things here:
-![[images/ssh_files.png]]
+![SSH files](images/ssh_files.png)
 
 Inside `IncidentReport.txt`, we find the full name of the target user. To generate a wordlist of potential usernames based on this name, we use `username-anarchy`:
 
