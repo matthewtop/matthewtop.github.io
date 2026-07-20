@@ -2,10 +2,10 @@
 tags:
   - htb
   - linux
-  - rtp
+  - rdp
 draft: false
 date: 2026-06-18
-title: attacking-rtp
+title: attacking-rdp
 ---
 ### Q1: What is the name of the file that was left on the Desktop? (Format example: filename.txt)
 
